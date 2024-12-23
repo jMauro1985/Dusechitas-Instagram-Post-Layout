@@ -1,3 +1,8 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 body {
     background-color: whitesmoke;
 }
@@ -22,6 +27,14 @@ body {
     
 }
 
+span.icon-css {
+   height: 80%;
+   width: 0%;
+   align-self: center;
+   font-size: 1.7em;
+   margin: 4px 4px 0px 8px;
+
+}
 
 span.text {
     height: 80%;
@@ -31,6 +44,12 @@ span.text {
    padding: 8px 10px 0px 10px;
 }
 
+span.punto {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+
+}
 
 img {
     width: 100%;
@@ -38,6 +57,48 @@ img {
 
 }
 
+.buttons {
+    margin-top: 30px;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+span.heart {
+    height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.comment {
+    height: 80%;
+   width: 4%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.paper {
+    height: 80%;
+   width: 80%;
+   align-self: center;
+   font-size: 1.5em;
+   margin: 4px 4px 0px 8px;
+
+}
+
+span.bookmark {
+    margin: 8px 15px 8px 0px;
+    align-self: center;
+    font-size: 1.5em;
+
+}
 
 .body {
     width: 100%;
